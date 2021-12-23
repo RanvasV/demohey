@@ -1,0 +1,58 @@
+[
+    {
+      "id": "Transferencia",
+      "max": 2,
+      "poster_path": "/Transferencia/Transferir(",
+      "title": "Transferir",
+      "opciones_path": "/Transferencia/Paso1/Paso1("
+    },
+    {
+      "id": "TransferirDesde",
+      "max": 2,
+      "poster_path": "/Transferencia/Paso1/Paso1(",
+      "title": "Transferir Desde"
+    },
+    {
+      "id": "MontoMayorAlLimite",
+      "max": 2,
+      "poster_path": "/Transferencia/MontoMayorAlLimite/MontoMayorAlLimite(",
+      "title1": "Programar Transferencia",
+      "titlemax": "Transferencia Programada" 
+    },
+    {
+      "id": "ActivaSinLimites",
+      "max": 3,
+      "poster_path": "/Transferencia/ActivaSinLimites/ActivaSinLimites(",
+      "title1": "Transferencia Hacia",
+      "title2": "Confirma Transferencia",
+      "titlemax": "Transferencia Programada" 
+    },
+    {
+      "id": "Inicio",
+      "max": 3,
+      "poster_path": "/Transferencia/Transferir(",
+      "title": "Nueva Transferencia",
+      "titleEditarAlias": "Editar Alias",
+      "titleQuitarDeFavoritos": "Quitar De Favoritos",
+      "titleEliminarCuenta": "Eliminar Cuenta",
+      "opciones_path": "/Transferencia/OpcionesFavoritos/OpcionesFavoritos(",
+      "EditarAlias": "/Transferencia/OpcionesFavoritos/OpcionesFavoritos(1).png",
+      "QuitarDeFavoritos": "/Transferencia/OpcionesFavoritos/OpcionesFavoritos(2).png",
+      "EliminarCuenta": "/Transferencia/OpcionesFavoritos/OpcionesFavoritos(3).png"
+    },
+    {
+      "id": "ConfirmarTransferencia",
+      "max": 3,
+      "poster_path": "/Transferencia/ConfirmarTransferencia/ConfirmarTransferencia(",
+      "title1": "Confirmar Transferencia",
+      "title2": "Transferencia Exitosa",
+      "titlemax": "Transferencia Exitosa" 
+    },
+    {
+      "id": "GuardarComoFavorita",
+      "max": 4,
+      "poster_path": "/Transferencia/ConfirmarTransferencia/ConfirmarTransferencia(",
+      "title1": "Confirmar Transferencia",
+      "titlemax": "Transferencia Exitosa" 
+    }
+  ]

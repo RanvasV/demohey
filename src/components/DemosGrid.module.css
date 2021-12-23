@@ -1,0 +1,21 @@
+.demosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 600px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.ahorroGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 160px;
+  padding: 40px;
+  justify-content: center;
+}
+
+@media (max-width: 560px) {
+  .moviesGrid {
+    grid-template-columns: 100%;
+  }
+}

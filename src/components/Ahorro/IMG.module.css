@@ -1,0 +1,17 @@
+.demosGrid {
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.ahorroGrid {
+  gap: 160px;
+  padding: 40px;
+  justify-content: center;
+}
+
+@media (max-width: 560px) {
+  .moviesGrid {
+    grid-template-columns: 100%;
+  }
+}
