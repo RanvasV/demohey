@@ -28,6 +28,12 @@
       "titlemax": "Transferencia Programada" 
     },
     {
+      "id": "ErrorTransferencia",
+      "max": 2,
+      "poster_path": "/Transferencia/Paso1/Paso1(",
+      "title": "Error De Transferencia"
+    },
+    {
       "id": "Inicio",
       "max": 3,
       "poster_path": "/Transferencia/Transferir(",

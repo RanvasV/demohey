@@ -56,6 +56,23 @@ export function DemoCard({ demo }) {
       </li>
     );
   }
+
+  if (params[5] === "ErrorTransferencia") {
+    return (
+      <li className={styles.demoCard}>
+        <Link to={"/demo/Transferencia/Opciones"}>
+          <img
+            className={styles.demoImage}
+            width={350}
+            height={650}
+            src={imgUrl + "4).png"}
+            alt={demo.title}
+          />
+          <div>No Tiene Saldo Suficiente</div>
+        </Link>
+      </li>
+    );
+  }
   
   if (id === "Transferencia" && isNaN(id2)) {
     return (
@@ -99,6 +116,16 @@ export function DemoCard({ demo }) {
             alt={demo.title}
           />
           <div>Monto Mayor Al Limite </div>
+        </Link>
+        <Link to={"/demo/Transferencia/ErrorTransferencia"}>
+          <img
+            className={styles.demoImage}
+            width={350}
+            height={650}
+            src={imgUrl2 + "4).png"}
+            alt={demo.title}
+          />
+          <div>Error De Transferencia </div>
         </Link>
       </li>
     );
